@@ -43,7 +43,7 @@ make
 
 ### Crosscompilation
 
-There is also the [build.sh](/dist/win/build.sh) script included that I use for building a the installer for distribution on this site. It should do everything automatically if you're in Fedora. There are instructions on how to use it inside at the top of the file
+There is also the [build.sh](/dist/win/build.sh) script included that I use for building the installer for distribution on this site. It should do everything automatically if you're in Fedora. There are instructions on how to use it inside at the top of the file
 
 
 

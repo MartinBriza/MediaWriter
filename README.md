@@ -20,13 +20,40 @@ You can build FMW using the default Qt `qmake` build system.
 
 ### Linux
 
+#### Install Build Dependencies
+
+You will need to install some dependency packages on your system in order to build MediaWriter.
+The package names vary depending on distribution.
+
+##### Ubuntu
+
+    sudo apt install liblzma-dev qt5-default qtdeclarative5-dev qml-module-qtquick-dialogs qml-module-qtquick-controls
+
+#### Build the Binary
+
+##### Set the Prefix
+
 You should specify the target directory using the `PREFIX` `qmake` variable. The default prefix path is `/usr/local`
 
 It can be done like this:
 
-`qmake PREFIX=/usr .`
+    qmake PREFIX=/usr .
 
-The main binary, `mediawriter`, will be writen to `$PREFIX/bin` and the helper binary can be found on the path `$PREFIX/libexec/mediawriter/helper`.
+The main binary, `mediawriter`, will be written to `$PREFIX/bin` and the helper binary can be found on the path `$PREFIX/libexec/mediawriter/helper`.
+
+##### Build and Install
+
+Generate a `Makefile` using the `qmake` tool:
+
+    qmake
+
+Build the `Makefile`:
+
+    make
+
+Install under [prefix location](#settings-the-prefix):
+
+    sudo make install
 
 #### Requirements
 
