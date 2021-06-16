@@ -3,6 +3,7 @@
         <file alias="placeholder64">data/assets/logos/png/64x64/media-optical-symbolic.png</file>
         <file alias="folder64">data/assets/logos/png/64x64/icon_folder.png</file>
         <file alias="workstation64">data/assets/logos/png/64x64/workstation-logo_color.png</file>
+        <file alias="iot64">data/assets/logos/png/64x64/iot-logo_color.png</file>
         <file alias="server64">data/assets/logos/png/64x64/server-logo_color.png</file>
         <file alias="cinnamon64">data/assets/logos/png/64x64/cinnamon_icon_grey_pattern.png</file>
         <file alias="kde64">data/assets/logos/png/64x64/kde_icon_grey_pattern.png</file>
@@ -23,6 +24,7 @@
         <file alias="placeholder">data/assets/logos/png/256x256/media-optical-symbolic.png</file>
         <file alias="folder">data/assets/logos/png/256x256/icon_folder.png</file>
         <file alias="workstation">data/assets/logos/png/256x256/workstation-logo_color.png</file>
+        <file alias="iot">data/assets/logos/png/256x256/iot-logo_color.png</file>
         <file alias="server">data/assets/logos/png/256x256/server-logo_color.png</file>
         <file alias="cinnamon">data/assets/logos/png/256x256/cinnamon_icon_grey_pattern.png</file>
         <file alias="kde">data/assets/logos/png/256x256/kde_icon_grey_pattern.png</file>

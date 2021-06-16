@@ -321,13 +321,13 @@ ReleaseListModel::ReleaseListModel(ReleaseManager *parent)
             icon = obj["icon"].toString();
 
         m_releases.append(new Release(manager(), m_releases.count(), name, summary, description, source, icon, screenshots));
-        if (m_releases.count() == 2) {
+        if (m_releases.count() == 3) {
             custom = new Release (manager(), 2, tr("Custom image"), QT_TRANSLATE_NOOP("Release", "Pick a file from your drive(s)"), { QT_TRANSLATE_NOOP("Release", "<p>Here you can choose a OS image from your hard drive to be written to your flash disk</p><p>Currently it is only supported to write raw disk images (.iso or .bin)</p>") }, Release::LOCAL, "qrc:/logos/folder", {});
             m_releases.append(custom);
         }
     }
 
-    if (m_releases.count() < 2) {
+    if (m_releases.count() < 3) {
         custom = new Release (manager(), m_releases.count(), tr("Custom image"), QT_TRANSLATE_NOOP("Release", "Pick a file from your drive(s)"), { QT_TRANSLATE_NOOP("Release", "<p>Here you can choose a OS image from your hard drive to be written to your flash disk</p><p>Currently it is only supported to write raw disk images (.iso or .bin)</p>") }, Release::LOCAL, "qrc:/logos/folder", {});
         m_releases.append(custom);
     }

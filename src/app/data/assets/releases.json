@@ -218,6 +218,33 @@
    {
       "version":"34",
       "arch":"x86_64",
+      "link":"https://download.fedoraproject.org/pub/alt/iot/34/IoT/x86_64/iso/Fedora-IoT-IoT-ostree-x86_64-34-20210429.1.iso",
+      "variant":"iot",
+      "subvariant":"iot",
+      "sha256":"296cb6464c3a8f7c58bdf959ed6e54b9e785596e2d4cf2fe0e2afd62a5fc4282",
+      "size":"1210384384"
+   },
+   {
+      "version":"34",
+      "arch":"aarch64",
+      "link":"https://download.fedoraproject.org/pub/alt/iot/34/IoT/aarch64/iso/Fedora-IoT-IoT-ostree-aarch64-34-20210429.1.iso",
+      "variant":"iot",
+      "subvariant":"iot",
+      "sha256":"c2263bf447190d84e649b028b7353d9d625b46ec9489ce665fdacfd9440e3eae",
+      "size":"1217327104"
+   },
+   {
+      "version":"34",
+      "arch":"armhfp",
+      "link":"https://download.fedoraproject.org/pub/alt/iot/34/IoT/armhfp/iso/Fedora-IoT-IoT-ostree-armhfp-34-20210429.1.iso",
+      "variant":"iot",
+      "subvariant":"iot",
+      "sha256":"2e2edd77dc80a75554a913265b2dd013fc33add8e97208fabbb509a4841b2fac",
+      "size":"1254791168"
+   },
+   {
+      "version":"34",
+      "arch":"x86_64",
       "link":"https://download.fedoraproject.org/pub/fedora/linux/releases/34/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-34-1.2.iso",
       "variant":"Silverblue",
       "subvariant":"Silverblue",
