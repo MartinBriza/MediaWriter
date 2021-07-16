@@ -70,6 +70,37 @@
         ]
     },
     {
+        "subvariant": "iot",
+        "category": "product",
+        "name": "Fedora IoT",
+        "summary": "A foundation for Internet of Things and Device Edge ecosystems.",
+        "icon": "qrc:/logos/iot",
+        "screenshots": [],
+        "description": [
+            "<h3>",
+            "Containerized applications",
+            "</h3><p>",
+            "Build, deploy, and manage your own applications with built-in Open Container Initiative (OCI) image support using podman or deploy containerized applications from popular public registries.",
+            "</p><h3>",
+            "Reliable operating system",
+            "</h3><p>",
+            "Fedora IoT uses OSTree technology to provide an immutable operating system with atomic updates. With the greenboot health check framework for systemd, administrators can ensure the system boots into the expected state.",
+            "</p><h3>",
+            "Security in mind",
+            "</h3><p>",
+            "Security is important for IoT devices especially since they likely don’t have the security of a data center. With support for TPM2, SecureBoot, and automated storage decryption with Clevis, Fedora IoT is built with a focus on security.",
+            "</p><h3>",
+            "Web-based provisioning",
+            "</h3><p>",
+            "With the Ignition provisioning utility and Zezere web service, administrators can deploy and configure Fedora IoT in a scalable manner without needing a physical console.",
+            "</p><h3>",
+            "Multiple architecture support",
+            "</h3><p>",
+            "IoT devices use a wide range of hardware and with Fedora IoT your software runs on any device without major changes. Fedora IoT is built for x86_64, aarch64, and armhfp processors in the same way with the same versions across all architectures.",
+            "</p><h3>"
+        ]
+    },
+    {
         "subvariant": "silverblue",
         "category": "emerging",
         "name": "Fedora Silverblue",

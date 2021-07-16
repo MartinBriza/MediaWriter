@@ -933,6 +933,86 @@ msgctxt "Release|"
 msgid "Information Systems Student"
 msgstr ""
 
+#: [iot].subvariant
+msgctxt "Release|"
+msgid "iot"
+msgstr ""
+
+#: [iot].category
+
+#: [iot].name
+msgctxt "Release|"
+msgid "Fedora IoT"
+msgstr ""
+
+#: [iot].summary
+msgctxt "Release|"
+msgid ""
+"A foundation for Internet of Things and Device Edge ecosystems."
+msgstr ""
+
+#: [iot].description[0]
+msgctxt "Release|"
+msgid "Containerized applications"
+msgstr ""
+
+#: [iot].description[1]
+msgctxt "Release|"
+msgid "Build, deploy, and manage your own applications with built-in Open "
+"Container Initiative (OCI) image support using podman or deploy containerized "
+"applications from popular public registries"
+msgstr ""
+
+#: [iot].description[2]
+msgctxt "Release|"
+msgid "Reliable operating system"
+msgstr ""
+
+#: [iot].description[3]
+msgctxt "Release|"
+msgid "Fedora IoT uses OSTree technology to provide an immutable operating "
+"system with atomic updates. With the greenboot health check framework for "
+"systemd, administrators can ensure the system boots into the expected state."
+msgstr ""
+
+#: [iot].description[4]
+msgctxt "Release|"
+msgid "Security in mind"
+msgstr ""
+
+#: [iot].description[5]
+msgctxt "Release|"
+msgid "Security is important for IoT devices especially since they likely don’t "
+"have the security of a data center. With support for TPM2, SecureBoot, and "
+"automated storage decryption with Clevis, Fedora IoT is built with a focus on "
+"security."
+msgstr ""
+
+#: [iot].description[6]
+msgctxt "Release|"
+msgid "Web-based provisioning"
+msgstr ""
+
+#: [iot].description[7]
+msgctxt "Release|"
+msgid "With the Ignition provisioning utility and Zezere web service, "
+"administrators can deploy and configure Fedora IoT in a scalable manner without "
+"needing a physical console."
+msgstr ""
+
+#: [iot].description[8]
+msgctxt "Release|"
+msgid "Multiple architecture support"
+msgstr ""
+
+#: [iot].description[9]
+msgctxt "Release|"
+msgid "IoT devices use a wide range of hardware and with Fedora IoT your "
+"software runs on any device without major changes. Fedora IoT is built for "
+"x86_64, aarch64, and armhfp processors in the same way with the same versions "
+"across all architectures."
+msgstr ""
+
 #: [Silverblue].subvariant
 msgctxt "Release|"
 msgid "silverblue"
