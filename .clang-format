@@ -1,0 +1,33 @@
+---
+Language: Cpp
+Standard: Cpp11
+AccessModifierOffset: -4
+UseTab: Never
+IndentWidth: 4
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 8
+AlignAfterOpenBracket: DontAlign
+# In casts the pointer should be on the left.
+PointerAlignment: Right
+DerivePointerAlignment: false
+AllowShortIfStatementsOnASingleLine: false
+ColumnLimit: 0
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  # If there are constructor initializers there might be a break.
+  AfterFunction: false
+  AfterNamespace: false
+  AfterObjCDeclaration: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeCatch: false
+  BeforeElse: true
+  IndentBraces: false
+SpaceAfterCStyleCast: true
+# There should be a space before the brace too.
+Cpp11BracedListStyle: false
+SortIncludes: false
+MaxEmptyLinesToKeep: 1
